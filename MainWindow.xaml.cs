@@ -23,6 +23,26 @@ namespace Prog_122_L10_DataClass
         public MainWindow()
         {
             InitializeComponent();
-        }
-    }
-}
+
+            // Album 
+            // Declaring the Type - Give it a name - Equals - new keyword - Type()
+
+            // Instanced Object
+            // new keyword - Album();
+            Album juansChoice = new Album();
+            Album kirasChoice = new Album();
+
+            juansChoice.title = "Thriller";
+            juansChoice.artistName = "Michael Jackson";
+            kirasChoice.title = "Bad";
+            kirasChoice.artistName="Michael Jackson";
+
+            // Object name.fieldName
+            rtbDisplay.Text = kirasChoice.title;
+
+
+        } // MainWindow()
+
+    } // class
+     
+} // namespace

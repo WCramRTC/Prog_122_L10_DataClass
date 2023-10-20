@@ -16,6 +16,49 @@ A data class is a way of grouping a set of seperate fields ( properties or varia
 	* Class name **MUST** start with **UPPER CASE**
 	* Class name is **Singular**
 
+Ex.  
+```csharp
+    public class Album
+    {
+        string title;
+        string artistName;
+        int year;
+        string albumCoverLocation;
+    } // class
+```
+
+## How to use the class 
+
+### Make an instance
+
+To create a new ***Instance***  
+**Declare Type - name - = - new keyword Type()**  
+Ex. `Album albumName = new Album();`
+
+### How to assign a value
+
+`albumName.Field`
+
+Ex. `albumName.title = "album title"`
+
+### How to get the value
+
+`rtbDisplay.Text = albumName.title`
+
+```csharp
+        Album juansChoice = new Album();
+        juansChoice.title = "Thriller";
+        juansChoice.artistName = "Michael Jackson";
+
+        Album kirasChoice = new Album();
+        kirasChoice.title = "Bad";
+        kirasChoice.artistName="Michael Jackson";
+        kirasChoice.year = 1987;
+
+        // Object name.fieldName
+    rtbDisplay.Text = kirasChoice.title;
+```
+
 ## Table Example
 
 Table for Albums ( Music )  
