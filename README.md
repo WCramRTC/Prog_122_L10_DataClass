@@ -9,10 +9,12 @@ A data class is a way of grouping a set of seperate fields ( properties or varia
 
 ## How to make a class
 
-> 1. Right Click in Solution Explorer
-> 2. Highlight `Add` in the drop down menu
-> 3. Click on `New Class` from the options
-> 4. 
+1. Right click on file in `Solution Explorer`
+2. Hover over `Add`
+3. Select `Class`
+4. Give a name to your `Class`  
+	* Class name **MUST** start with **UPPER CASE**
+	* Class name is **Singular**
 
 ## Table Example
 
@@ -32,8 +34,21 @@ Fields ( Artist Name, Album Name, Year Released, Number of Songs )
 | Whisper Twins  | Silent Echoes            | 2005          | 10              |
 | Neon Pulse     | Vibrant Frequencies      | 2018          | 9               |
 
+### In Class Question - What Makes an Album?
+* A List of songs
+* Artwork
+* Title
+* Artist Name
+* Year Released
 
 
+### In Class Example
+* Benel - Elton John, Life House, Lee "Scratch" Perry
+* David - The Garden
+* Hafsa - Baby Shark
+* Juan - Michael Jackson
+* Kira - Teena Marie
+* Will - BTS
 
 
 ---
@@ -42,6 +57,13 @@ Fields ( Artist Name, Album Name, Year Released, Number of Songs )
 ## What is a data class
 
 ### Headings ( 1 to 6 Hash Tags )
+
+Single Astrix next to word makes it italics
+*Bold*
+
+Double Astrix makes a word **BOLD**
+
+Triple Astrix makes a word ***Italic and Bold***
 
 You can use organized numbers for lists  
 Do double space enter after a line to go straight to new line
