@@ -84,15 +84,50 @@ Fields ( Artist Name, Album Name, Year Released, Number of Songs )
 * Artist Name
 * Year Released
 
+Code Result: 
+```csharp
+    public class Album
+    {
+
+        public string _title;
+        public string _artistName;
+        public int _year;
+        public string _albumCoverLocation;
+
+        public Album(string title, string artistName)
+        {
+            _title = title;
+            _artistName = artistName;
+        } // Album
+
+```
+
 
 ### In Class Example
-* Benel - Elton John, Life House, Lee "Scratch" Perry
+* Benel - Elton John, Life House, Lee "Scratch" Perry  
+    *   Santana - Supernatural
+    *   Santana - Milagro
 * David - The Garden
 * Hafsa - Baby Shark
 * Juan - Michael Jackson
 * Kira - Teena Marie
 * Will - BTS
 
+```csharp
+    
+    List<Album> albumList = new List<Album>();
+
+    Album jaunsChoice = new Album("Thriller", "Michael Jackson");
+
+    albumList.Add(jaunsChoice);
+
+    albumList.Add(new Album("Egg", "The Garden")); // Adding new albums with a shortcut
+    albumList.Add(new Album("Beautiful", "Teena Marie"));
+    albumList.Add(new Album("Supernatural", "Santana" ));
+    albumList.Add(new Album("Milagro", "Santana"));
+    albumList.Add(new Album("Butter", "BTS"));
+
+```
 
 ---
 # In Class Notes - Data Classes
