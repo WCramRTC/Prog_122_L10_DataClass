@@ -88,12 +88,13 @@ Code Result:
 ```csharp
     public class Album
     {
-
+        // Fields
         public string _title;
         public string _artistName;
         public int _year;
         public string _albumCoverLocation;
 
+        // Constructor ( Requires Title and Artist Name )
         public Album(string title, string artistName)
         {
             _title = title;
