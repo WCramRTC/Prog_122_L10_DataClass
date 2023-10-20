@@ -37,7 +37,7 @@ Ex. `Album albumName = new Album();`
 
 ### How to assign a value
 
-`albumName.Field`
+`albumName.Field = "value to assign"`
 
 Ex. `albumName.title = "album title"`
 
