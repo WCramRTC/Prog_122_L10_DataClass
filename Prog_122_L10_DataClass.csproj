@@ -14,9 +14,4 @@
     <Page Remove="Images\**" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Demo_Materials\Images\" />
-    <Folder Include="Demo_Materials\SpreadSheets\" />
-  </ItemGroup>
-
 </Project>

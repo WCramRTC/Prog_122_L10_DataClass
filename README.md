@@ -7,6 +7,13 @@ A data class is a way of grouping a set of seperate fields ( properties or varia
 
 [Refactoring Guru - What are data classes?](https://refactoring.guru/smells/data-class#:~:text=A%20data%20class%20refers%20to,the%20data%20that%20they%20own.)
 
+## How to make a class
+
+> 1. Right Click in Solution Explorer
+> 2. Highlight `Add` in the drop down menu
+> 3. Click on `New Class` from the options
+> 4. 
+
 ## Table Example
 
 Table for Albums ( Music )  
@@ -25,3 +32,27 @@ Fields ( Artist Name, Album Name, Year Released, Number of Songs )
 | Whisper Twins  | Silent Echoes            | 2005          | 10              |
 | Neon Pulse     | Vibrant Frequencies      | 2018          | 9               |
 
+
+
+
+
+---
+# In Class Notes - Data Classes
+
+## What is a data class
+
+### Headings ( 1 to 6 Hash Tags )
+
+You can use organized numbers for lists  
+Do double space enter after a line to go straight to new line
+Two CODE syntax  
+` <--- tilde in upper left corner  
+
+`Will have a generic code syntax`
+
+3 tilde will do code specific syntax
+```csharp
+public static void main() {
+
+}
+```
